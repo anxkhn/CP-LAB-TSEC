@@ -3,16 +3,15 @@
 
 void main()
 {
-	int d, n, sum;
-	printf("Enter a number ");
+	int d, n, sum = 0;
+	printf("Enter a number  \n");
 	scanf("%d", &n);
 	while (n > 0)
 	{
 		d = n % 10;
 		sum = sum + d;
-		F
 		n = n / 10;
 	}
 
-	printf("\n sum of the digit = %d", sum);
+	printf("Sum of the digit = %d", sum);
 }

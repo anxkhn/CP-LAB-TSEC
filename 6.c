@@ -12,7 +12,7 @@ void main()
 		t = (digit1 *digit1 *digit1) + (digit2 *digit2 *digit2) + (digit3 *digit3 *digit3);
 		if (t == number)
 		{
-			printf("%d \n ", t);
+			printf("%d \n", t);
 		}
 
 		number++;

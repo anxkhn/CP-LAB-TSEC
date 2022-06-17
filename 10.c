@@ -4,10 +4,10 @@
 void main()
 {
 	int i, j, n, temp;
-	printf("Enter n\t");
+	printf("Enter n = ");
 	scanf("%d", &n);
 	int a[n];
-	printf("Enter elements");
+	printf("Enter elements \n");
 	for (i = 0; i < n; i++)
 	{
 		scanf("%d", &a[i]);
@@ -26,9 +26,9 @@ void main()
 		}
 	}
 
-	printf("Ascending order is ")
+	printf("Ascending order is ");
 	for (i = 0; i < n; i++)
 	{
-		printf("%d\t", a[i]);
+		printf(" %d ", a[i]);
 	}
 }

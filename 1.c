@@ -4,13 +4,11 @@
 
 void main()
 {
-	float a, b, c;
-	float area;
-	float s;
-	a = 12.5;
-	b = 13.3;
-	c = 10.8;
+    int a, b, c;
+	float area, s;
+    printf("Enter the side lengths: ");
+    scanf("%d %d %d",&a,&b,&c);
 	s = (a + b + c) / 2;
 	area = sqrt(s *(s - a) *(s - b) *(s - c));
-	printf(" Area is= \t%f\n", area);
+	printf("Area is %.2f", area);
 }
